@@ -1,0 +1,29 @@
+[package]
+name = "tuimager"
+version = "0.1.0"
+authors = ["Jedsek <jedsek@qq.com>"]
+description = "A TUI app for showing image/gif in terminal, written in Rust"
+edition = "2021"
+readme = "README.md"
+
+documentation =  "https://github.com/jedsek/tuimager"
+homepage      =  "https://github.com/jedsek/tuimager"
+repository    =  "https://github.com/jedsek/tuimager"
+
+keywords = ["terminal", "cli", "tui-image-viewer", "image", "sixel"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
+panic = 'abort'
+incremental = false
+strip = true
+
+[dependencies]
+crossterm = "0.26.1"
+path-absolutize = "3.1.0"
+tui = { package = "ratatui", version = "0.21", default_features = false, features = ["crossterm", "macros"] }
+viuer = "0.6.2"
