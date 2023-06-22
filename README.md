@@ -7,7 +7,7 @@ Your terminal should support kitty/iterm graghpic protocols like `kitty/wezterm`
 
 
 ## Showcase
-![recording](./screenshots/1.webm)
+![recording](./screenshots/recording.mkv)
 ![screenshot_1](./screenshots/screenshot_1.jpg)
 ![screenshot_2](./screenshots/screenshot_2.jpg)
 
