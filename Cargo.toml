@@ -10,7 +10,7 @@ documentation =  "https://github.com/jedsek/tuimager"
 homepage      =  "https://github.com/jedsek/tuimager"
 repository    =  "https://github.com/jedsek/tuimager"
 
-keywords = ["terminal", "cli", "tui-image-viewer", "image", "tui", "sixel"]
+keywords = ["terminal", "cli", "tui-image-viewer", "image", "sixel"]
 categories = ["command-line-utilities"]
 license = "MIT"
 
